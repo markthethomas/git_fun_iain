@@ -1,0 +1,17 @@
+<html> 
+ <header>
+
+ </header>
+ <body>
+  <h2>This is to find how many days there are until each of the dates you have selected. <br> </h2>	
+  <form>
+   Enter a future date (mm/dd/yyyy) : 
+   <input type="date" name="futureDate">
+   <input type="button" onclick="AddDate(getElementByName("futureDate"));" value="Add Date">
+   <input type="button" onclick="DaysUntil(datesSelected)" value="Submit"> 
+  </form>
+  <br>
+  <p id="output"></p>
+  <script type="text/javascript" source="date_tracker.js"></script>
+ </body>
+</html>
